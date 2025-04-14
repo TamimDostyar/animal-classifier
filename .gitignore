@@ -1,0 +1,63 @@
+venv/
+.env
+# Python caches
+__pycache__/
+*/__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+**/.pytest_cache/
+.coverage
+htmlcov/
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+static/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+**/.DS_Store
+Thumbs.db
+**/Thumbs.db
+
+# Environment
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Caches from all folders
+**/.cache/
+**/.caches/
+**/caches/
+**/*.cache
+**/node_modules/
+**/.sass-cache/
+**/.npm/
+**/.yarn/
+**/tmp/
+**/temp/
+
+
+classifier/__pycache__/
+classifier/venv/
+
+data/animals/
+notebook/.ipynb_checkpoints/
+
